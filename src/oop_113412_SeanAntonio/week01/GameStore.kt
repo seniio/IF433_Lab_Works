@@ -6,9 +6,11 @@ fun main() {
 
     val hargaAkhir = calculateDiscount(harga)
 
-    println("Judul Game: $judul")
-    println("Harga Asli: Rp $harga")
-    println("Harga Akhir: Rp $hargaAkhir")
+    printReceipt(
+        title = judul,
+        originalPrice = harga,
+        finalPrice = hargaAkhir
+    )
 }
 
 fun calculateDiscount(harga: Int): Int =
@@ -16,3 +18,13 @@ fun calculateDiscount(harga: Int): Int =
         harga - (harga * 20 / 100)
     else
         harga - (harga * 10 / 100)
+
+fun printReceipt(
+    title: String,
+    originalPrice: Int,
+    finalPrice: Int
+) {
+    println("Judul Game: $title")
+    println("Harga Asli: Rp $originalPrice")
+    println("Harga Akhir: Rp $finalPrice")
+}
