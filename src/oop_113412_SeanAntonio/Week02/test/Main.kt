@@ -1,5 +1,6 @@
-package oop_113412_SeanAntonio.Week02
+package oop_113412_SeanAntonio.Week02.test
 
+import oop_113412_SeanAntonio.Week02.test.Student
 import java.util.Scanner
 
 fun main () {
