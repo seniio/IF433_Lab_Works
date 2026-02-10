@@ -5,7 +5,7 @@ import java.util.Scanner
 fun main () {
     val scanner = Scanner(System.`in`)
 
-    println("--- aAPLIKASI PMB UMN ---")
+    println("--- APLIKASI PMB UMN ---")
 
     print("Masukkan Nama: ")
     val name = scanner.nextLine()
