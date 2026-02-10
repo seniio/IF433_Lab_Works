@@ -1,7 +1,11 @@
 package oop_113412_SeanAntonio.Week02
 
-class Student (val name: String, val nim: String, val major: String) {
-
+class Student (
+    val name: String,
+    val nim: String,
+    var major: String,
+    var gpa: Double = 0.0
+) {
     constructor(name: String, nim: String) : this(name, nim, "Non-Matriculated") {
         println("LOG : menggunakan constructor jalur umum (Tanpa Jurusan).")
     }
