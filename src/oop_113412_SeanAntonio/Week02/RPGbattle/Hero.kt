@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week02
+package oop_113412_SeanAntonio.Week02.RPGbattle
 
 class Hero(
     val name: String,
