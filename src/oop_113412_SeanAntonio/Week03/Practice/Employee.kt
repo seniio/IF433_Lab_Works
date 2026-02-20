@@ -1,6 +1,4 @@
-package oop_113412_SeanAntonio.Week03
-
-import kotlin.times
+package oop_113412_SeanAntonio.Week03.Practice
 
 class Employee(val name:String) {
     var salary: Int = 0

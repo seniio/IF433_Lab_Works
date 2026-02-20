@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week03
+package oop_113412_SeanAntonio.Week03.Practice
 
 open class Karyawan {
     private var nama: String? = "belum ada"

@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week03
+package oop_113412_SeanAntonio.Week03.Practice
 
 fun Main() {
     val e = Employee("sean")
