@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week04.Practice
+package oop_113412_SeanAntonio.Week04.Tugas1
 
 class ElectricCar (
     brand: String,

@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week04.Practice
+package oop_113412_SeanAntonio.Week04.Tugas1
 
 open class Car(brand:String, val numberofDoors: Int) : Vehicle(brand) {
     fun openTrunk(){
