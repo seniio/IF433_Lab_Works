@@ -1,9 +1,14 @@
 package oop_113412_SeanAntonio.Week04
 
 fun main() {
-    val myCar = Car("Toyota", 4)
+    println("--- Testing Vehicle ---")
+    val generalVehicle = Vehicle("Sepeda Onthel")
+    generalVehicle.accelerate()
+    generalVehicle.honk()
 
-    myCar.accelerate()
-    myCar.honk()
+    println("\n--- Testing Car ---")
+    val myCar = Car("Toyota", 4)
     myCar.openTrunk()
+    myCar.honk()
+    myCar.accelerate()
 }
