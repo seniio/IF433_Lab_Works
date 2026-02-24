@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week04
+package oop_113412_SeanAntonio.Week04.Practice
 
 open class Vehicle (val brand:String){
     var speed: Int = 0
