@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week05
+package oop_113412_SeanAntonio.Week05.Tugas1
 
 class MathHelper {
 
