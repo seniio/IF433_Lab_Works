@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week05
+package oop_113412_SeanAntonio.Week05.Practice
 
 fun main(){
     val dosen1 = Dosen("Pak Alex", "0123456")

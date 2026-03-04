@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week05
+package oop_113412_SeanAntonio.Week05.Practice
 
 class Admin(nama: String)  : Pegawai (nama) {
     override fun bekerja() {
