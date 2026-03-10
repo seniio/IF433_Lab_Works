@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week6
+package oop_113412_SeanAntonio.Week6.Latihan3
 
 class Smartphone : Camera, Phone {
     override fun turnOn() {
