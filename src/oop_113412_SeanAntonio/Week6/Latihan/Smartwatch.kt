@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week6
+package oop_113412_SeanAntonio.Week6.Latihan
 
 class Smartwatch : Watch(), BluetoothConnectable, Rechargeable {
     override fun showTime() {
