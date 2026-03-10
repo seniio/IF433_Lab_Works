@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week6.Latihan1
+package oop_113412_SeanAntonio.Week6
 
 interface Clickable {
     val name:String;
