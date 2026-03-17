@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week07.Latihan
+package oop_113412_SeanAntonio.Week07
 
 fun main() {
     println("=== TEST SIGNLETON ===")
@@ -38,5 +38,8 @@ fun main() {
         is ApiResponse.Loading -> "Tampilkan Spinner";
     }
     println(uiMessage)
+
+    GameManager.startGame()
+    GameManager.startGame()
 }
 

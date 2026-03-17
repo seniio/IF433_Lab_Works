@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week07.Latihan
+package oop_113412_SeanAntonio.Week07
 
 class NetworkClient private constructor(val url: String) {
     companion object {
