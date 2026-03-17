@@ -27,6 +27,6 @@ fun main() {
     println("Hasil Copy : $data3")
 
     val (userName, userAge) = data1
-    println("Destructed: $userName berumur $userAge)
+    println("Destructed: $userName berumur $userAge")
 }
 
