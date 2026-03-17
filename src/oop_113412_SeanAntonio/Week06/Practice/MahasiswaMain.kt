@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week6.Practice
+package oop_113412_SeanAntonio.Week06.Practice
 
 fun main() {
     val krs = KRS("adam", "kevin")

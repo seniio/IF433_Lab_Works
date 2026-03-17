@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week6.Latihan
+package oop_113412_SeanAntonio.Week06.Latihan
 
 fun processCheckout(method: PaymentMethod, amount: Double) {
     println("-> Memulai checkout...")

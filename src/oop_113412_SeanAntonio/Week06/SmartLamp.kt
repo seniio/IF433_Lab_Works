@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week6
+package oop_113412_SeanAntonio.Week06
 
 class SmartLamp(
     override val id: String,

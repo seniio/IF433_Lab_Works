@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week6.Practice
+package oop_113412_SeanAntonio.Week06.Practice
 
 class KRS(override val nama: String, override val namaSiswa: String): Mahasiswa, Siswa {
     override fun belajar() {
