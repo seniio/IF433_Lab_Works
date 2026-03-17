@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week07
+package oop_113412_SeanAntonio.Week07.Latihan
 
 enum class AppState {
     STARTING, RUNNING, STOPPED

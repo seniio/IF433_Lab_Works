@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week07
+package oop_113412_SeanAntonio.Week07.Latihan
 
 fun main() {
     println("=== TEST SIGNLETON ===")
@@ -35,8 +35,8 @@ fun main() {
     val uiMessage = when (response) {
         is ApiResponse.Success -> "Tampilkan ${response.data}"
         is ApiResponse.Error -> "Munculkan alert: ${response.message}"
-        is ApiResponse.Loading -> "Tampilkan Spinner"
+        is ApiResponse.Loading -> "Tampilkan Spinner";
     }
-
+    println(uiMessage)
 }
 
