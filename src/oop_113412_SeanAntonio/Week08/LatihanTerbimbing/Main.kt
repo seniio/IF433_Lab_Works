@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week08
+package oop_113412_SeanAntonio.Week08.LatihanTerbimbing
 
 fun main () {
     println("=== TEST SAFE CALLS & ELVIS ===")

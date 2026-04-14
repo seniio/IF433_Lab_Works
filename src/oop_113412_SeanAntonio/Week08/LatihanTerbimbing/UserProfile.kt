@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week08
+package oop_113412_SeanAntonio.Week08.LatihanTerbimbing
 
 class UserProfile (
     val name: String,
