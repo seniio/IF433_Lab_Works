@@ -8,9 +8,9 @@ fun main () {
     println("Tujuan pengiriman: $destination")
 
     println("\n=== TEST LET BLOK ===")
-    val valiOrder = Order(null, 250000)
+    val validOrder = Order(null, 250000)
 
-    val receipt = valiOrder.totalPrice?.let { price ->
+    val receipt = validOrder.totalPrice?.let { price ->
         val tax = price * 0.11
         "Transaksi valid. Harga : Rp$price, Pajak: Rp$tax"
     } ?: "transaksi invalid. Harga belum di set!"
@@ -22,7 +22,7 @@ fun main () {
     )
 
     for (item in mixedData) {
-        val text = item as? String // Safe cast as? [cite: 96]
+        val text = item as? String
         text?.let {
             println("Ditemukan teks: ${it.uppercase()}")
         }
