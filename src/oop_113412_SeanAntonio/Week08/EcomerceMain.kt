@@ -9,4 +9,17 @@ fun main() {
         mapOf("id" to "X01", "name" to "Unknown", "type" to "FOOD")
     )
 
+    val parser = ApiParser()
+
+    for (raw in rawApiData) {
+        try {
+            val product = parser.parseProduct(raw)
+            product?.let {
+                println("Processing: $it")
+                parser.checkout(it)
+            } ?: println("Skipping: Unknown product type.")
+        } catch (e: IllegalArgumentException) {
+            println("Error: ${e.message}")
+        }
+    }
 }
