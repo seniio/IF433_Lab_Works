@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week10
+package oop_113412_SeanAntonio.Week10.Latihan
 
 fun main () {
     println("=== TEST GENERIC CLASS ===")

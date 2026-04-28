@@ -1,4 +1,4 @@
-package oop_113412_SeanAntonio.Week10
+package oop_113412_SeanAntonio.Week10.Latihan
 
 class MathBox<T : Number> (val value1: T, val value2: T) {
     fun sum(): Double {
