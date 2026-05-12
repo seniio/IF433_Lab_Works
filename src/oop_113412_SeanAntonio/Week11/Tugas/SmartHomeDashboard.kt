@@ -43,4 +43,3 @@ fun main() {
         println(it.diagnose())
     }
 }
-}
