@@ -29,4 +29,10 @@ fun main() {
     finally {
         println("Siklus pengecekan dispenser pagi selesai.")
     }
+
+    println("\n=== JADWAL MAKAN SORE ===")
+    // Anggap sudah diisi ulang menjadi 1000gr
+    val result = runCatching {
+        dispenseKibble(30, 1000, false)
+    }
 }
