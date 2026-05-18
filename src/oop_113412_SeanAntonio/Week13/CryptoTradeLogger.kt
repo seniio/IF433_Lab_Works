@@ -60,4 +60,9 @@ fun main() {
 
     val loadedData = loadTrades(path)
     val totalPnl = loadedData.sumOf { it.pnl }
+
+    println("\n=== VALID TRADES HISTORY ===")
+    loadedData.forEach { println(it) }
+
+    println("\n==== TOTAL PnL BERSIH: $totalPnl ====")
 }
