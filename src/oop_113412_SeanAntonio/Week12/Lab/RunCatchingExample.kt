@@ -1,4 +1,4 @@
-package Week12.Lab
+package oop_113412_SeanAntonio.Week12.Lab
 
 fun main() {
     println("=== TEST RUNCATCHING ===")

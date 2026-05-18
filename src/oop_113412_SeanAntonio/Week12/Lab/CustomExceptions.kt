@@ -1,4 +1,4 @@
-package Week12.Lab
+package oop_113412_SeanAntonio.Week12.Lab
 
 class InsufficientFundsException(
     val amount: Double,
