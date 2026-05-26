@@ -1,0 +1,2 @@
+Ini contoh baris pertama pakai printwritter, 20, 40, 8
+Ini contoh baris kedua pakai printwritter, 23, 46, 2
