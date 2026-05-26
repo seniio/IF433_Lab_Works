@@ -11,3 +11,9 @@ class StudentDiscount : DiscountStrategy {
 class MemberDiscount : DiscountStrategy {
     override fun apply(price: Double): Double = price * 0.85
 }
+
+class SafeDiscountCalculator(private val strategy: DiscountStrategy) {
+    fun calculate(price: Double): Double {
+        return strategy.apply(price)
+    }
+}
